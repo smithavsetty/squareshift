@@ -17,21 +17,12 @@ public class HeadLinePage extends BaseMethods {
 	}
 
 	public void scrollInToSecondExpandBtn() {
-		
 		scrollToEnd();
-		scrollUp("-2000");
-		int i = 0;
-		while (i < 10) {
-			scrollDown("550");
-			scrollUp("-200");
-			i++;
-		}
 		scrollToView(expandToReadSecondInstance);
 		scrollUp("200");
 	}
 
-	public void clickSecondExpandBtn() {
-		
+	public void clickSecondExpandBtn() {		
 		click(expandToReadSecondInstance);
 	}
 
